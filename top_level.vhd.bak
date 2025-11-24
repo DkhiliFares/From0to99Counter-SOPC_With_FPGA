@@ -1,0 +1,32 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity top_level is
+    port (
+        CONNECTED_TO_clk_clk                          : in  std_logic;                         -- Clock input
+        CONNECTED_TO_reset_reset_n                    : in  std_logic;                         -- Active-low reset
+        CONNECTED_TO_pio_0_external_connection_export : out std_logic_vector(6 downto 0)       -- 7-bit output (PIO)
+    );
+end entity top_level;
+
+architecture rtl of top_level is
+
+    component Processeur2 is
+        port (
+            clk_clk                          : in  std_logic := 'X';
+            reset_reset_n                    : in  std_logic := 'X';
+            pio_0_external_connection_export : out std_logic_vector(6 downto 0)
+        );
+    end component Processeur2;
+
+begin
+
+    -- Instantiate Qsys system "Processeur2"
+    u0 : Processeur2
+        port map (
+            clk_clk                          => CONNECTED_TO_clk_clk,                          -- Clock
+            reset_reset_n                    => CONNECTED_TO_reset_reset_n,                    -- Reset
+            pio_0_external_connection_export => CONNECTED_TO_pio_0_external_connection_export  -- PIO output
+        );
+
+end architecture rtl;

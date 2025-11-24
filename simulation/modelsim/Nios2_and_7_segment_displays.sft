@@ -1,0 +1,5 @@
+set tool_name "ModelSim (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {Nios2_and_7_segment_displays.vho Nios2_and_7_segment_displays_vhd.sdo}}
+	{{"Fast Model"} {Nios2_and_7_segment_displays_fast.vho Nios2_and_7_segment_displays_vhd_fast.sdo}}
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Nios2_and_7_segment_displays">
+		<CBX_INST_ENTRY INSTANCE_NAME="|TopLevel|Processeur2:u0|Processeur2_jtag_uart_0:jtag_uart_0|Processeur2_jtag_uart_0_scfifo_w:the_Processeur2_jtag_uart_0_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TopLevel|Processeur2:u0|Processeur2_proc2:proc2|Processeur2_proc2_nios2_oci:the_Processeur2_proc2_nios2_oci|Processeur2_proc2_nios2_ocimem:the_Processeur2_proc2_nios2_ocimem|Processeur2_proc2_ociram_sp_ram_module:Processeur2_proc2_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_ev71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TopLevel|Processeur2:u0|Processeur2_proc2:proc2|Processeur2_proc2_register_bank_a_module:Processeur2_proc2_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_aig1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TopLevel|Processeur2:u0|Processeur2_proc2:proc2|Processeur2_proc2_register_bank_b_module:Processeur2_proc2_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_big1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TopLevel|Processeur2:u0|Processeur2_jtag_uart_0:jtag_uart_0|Processeur2_jtag_uart_0_scfifo_r:the_Processeur2_jtag_uart_0_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TopLevel|Processeur2:u0|Processeur2_onchip_memory2_0:onchip_memory2_0|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_pad1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

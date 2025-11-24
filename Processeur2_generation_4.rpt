@@ -1,0 +1,171 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:/altera/13.0sp1/NiosII_et_afficheurs_sept_segments/ --output-directory=C:/altera/13.0sp1/NiosII_et_afficheurs_sept_segments/Processeur2/ --report-file=bsf:C:/altera/13.0sp1/NiosII_et_afficheurs_sept_segments/Processeur2.bsf --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C20F484C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/altera/13.0sp1/NiosII_et_afficheurs_sept_segments/Processeur2.qsys
+Progress: Loading NiosII_et_afficheurs_sept_segments/Processeur2.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.0]
+Progress: Parameterizing module clk_0
+Progress: Adding proc2 [altera_nios2_qsys 13.0]
+Progress: Parameterizing module proc2
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding display7Segment2 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module display7Segment2
+Progress: Adding display7Segment3 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module display7Segment3
+Progress: Adding display7Segment4 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module display7Segment4
+Progress: Adding display7Segment1 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module display7Segment1
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:/altera/13.0sp1/NiosII_et_afficheurs_sept_segments/ --output-directory=C:/altera/13.0sp1/NiosII_et_afficheurs_sept_segments/Processeur2/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:C:/altera/13.0sp1/NiosII_et_afficheurs_sept_segments/Processeur2.sopcinfo --report-file=html:C:/altera/13.0sp1/NiosII_et_afficheurs_sept_segments/Processeur2.html --report-file=qip:C:/altera/13.0sp1/NiosII_et_afficheurs_sept_segments/Processeur2/synthesis/Processeur2.qip --report-file=cmp:C:/altera/13.0sp1/NiosII_et_afficheurs_sept_segments/Processeur2.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C20F484C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/altera/13.0sp1/NiosII_et_afficheurs_sept_segments/Processeur2.qsys --language=VHDL
+Progress: Loading NiosII_et_afficheurs_sept_segments/Processeur2.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.0]
+Progress: Parameterizing module clk_0
+Progress: Adding proc2 [altera_nios2_qsys 13.0]
+Progress: Parameterizing module proc2
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding display7Segment2 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module display7Segment2
+Progress: Adding display7Segment3 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module display7Segment3
+Progress: Adding display7Segment4 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module display7Segment4
+Progress: Adding display7Segment1 [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module display7Segment1
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Processeur2: Generating Processeur2 "Processeur2" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 8 modules, 32 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 17 modules, 68 connections
+Info: merlin_domain_transform: After transform: 34 modules, 181 connections
+Info: merlin_router_transform: After transform: 43 modules, 217 connections
+Info: reset_adaptation_transform: After transform: 44 modules, 170 connections
+Info: merlin_network_to_switch_transform: After transform: 61 modules, 208 connections
+Info: merlin_mm_transform: After transform: 61 modules, 208 connections
+Info: merlin_interrupt_mapper_transform: After transform: 62 modules, 211 connections
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: Processeur2: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Info: proc2: Starting RTL generation for module 'Processeur2_proc2'
+Info: proc2:   Generation command is [exec C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=Processeur2_proc2 --dir=C:/Users/ramzi/AppData/Local/Temp/alt0416_3667944985510186095.dir/0022_proc2_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/ramzi/AppData/Local/Temp/alt0416_3667944985510186095.dir/0022_proc2_gen//Processeur2_proc2_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: proc2: # 2025.11.24 04:29:46 (*) Starting Nios II generation
+Info: proc2: # 2025.11.24 04:29:46 (*)   Checking for plaintext license.
+Info: proc2: # 2025.11.24 04:29:47 (*)   Couldn't query license setup in Quartus directory C:/altera/13.0sp1/quartus
+Info: proc2: # 2025.11.24 04:29:47 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: proc2: # 2025.11.24 04:29:47 (*)   LM_LICENSE_FILE environment variable is empty
+Info: proc2: # 2025.11.24 04:29:47 (*)   Plaintext license not found.
+Info: proc2: # 2025.11.24 04:29:47 (*)   No license required to generate encrypted Nios II/e.
+Info: proc2: # 2025.11.24 04:29:47 (*)   Elaborating CPU configuration settings
+Info: proc2: # 2025.11.24 04:29:47 (*)   Creating all objects for CPU
+Info: proc2: # 2025.11.24 04:29:47 (*)   Generating RTL from CPU objects
+Info: proc2: # 2025.11.24 04:29:47 (*)   Creating plain-text RTL
+Info: proc2: # 2025.11.24 04:29:49 (*) Done Nios II generation
+Info: proc2: Done RTL generation for module 'Processeur2_proc2'
+Info: proc2: "Processeur2" instantiated altera_nios2_qsys "proc2"
+Info: onchip_memory2_0: Starting RTL generation for module 'Processeur2_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=Processeur2_onchip_memory2_0 --dir=C:/Users/ramzi/AppData/Local/Temp/alt0416_3667944985510186095.dir/0023_onchip_memory2_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/ramzi/AppData/Local/Temp/alt0416_3667944985510186095.dir/0023_onchip_memory2_0_gen//Processeur2_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'Processeur2_onchip_memory2_0'
+Info: onchip_memory2_0: "Processeur2" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: jtag_uart_0: Starting RTL generation for module 'Processeur2_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=Processeur2_jtag_uart_0 --dir=C:/Users/ramzi/AppData/Local/Temp/alt0416_3667944985510186095.dir/0024_jtag_uart_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/ramzi/AppData/Local/Temp/alt0416_3667944985510186095.dir/0024_jtag_uart_0_gen//Processeur2_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'Processeur2_jtag_uart_0'
+Info: jtag_uart_0: "Processeur2" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: display7Segment2: Starting RTL generation for module 'Processeur2_display7Segment2'
+Info: display7Segment2:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Processeur2_display7Segment2 --dir=C:/Users/ramzi/AppData/Local/Temp/alt0416_3667944985510186095.dir/0025_display7Segment2_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/ramzi/AppData/Local/Temp/alt0416_3667944985510186095.dir/0025_display7Segment2_gen//Processeur2_display7Segment2_component_configuration.pl  --do_build_sim=0  ]
+Info: display7Segment2: Done RTL generation for module 'Processeur2_display7Segment2'
+Info: display7Segment2: "Processeur2" instantiated altera_avalon_pio "display7Segment2"
+Info: proc2_instruction_master_translator: "Processeur2" instantiated altera_merlin_master_translator "proc2_instruction_master_translator"
+Info: proc2_jtag_debug_module_translator: "Processeur2" instantiated altera_merlin_slave_translator "proc2_jtag_debug_module_translator"
+Info: proc2_instruction_master_translator_avalon_universal_master_0_agent: "Processeur2" instantiated altera_merlin_master_agent "proc2_instruction_master_translator_avalon_universal_master_0_agent"
+Info: proc2_jtag_debug_module_translator_avalon_universal_slave_0_agent: "Processeur2" instantiated altera_merlin_slave_agent "proc2_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: proc2_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "Processeur2" instantiated altera_avalon_sc_fifo "proc2_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "Processeur2" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "Processeur2" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "Processeur2" instantiated altera_merlin_router "id_router"
+Info: id_router_003: "Processeur2" instantiated altera_merlin_router "id_router_003"
+Info: rst_controller: "Processeur2" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "Processeur2" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "Processeur2" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "Processeur2" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux: "Processeur2" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_003: "Processeur2" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_003"
+Info: rsp_xbar_mux: "Processeur2" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file C:/altera/13.0sp1/NiosII_et_afficheurs_sept_segments/Processeur2/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "Processeur2" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file C:/altera/13.0sp1/NiosII_et_afficheurs_sept_segments/Processeur2/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: irq_mapper: "Processeur2" instantiated altera_irq_mapper "irq_mapper"
+Info: Processeur2: Done Processeur2" with 23 modules, 92 files, 1860694 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
