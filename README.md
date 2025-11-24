@@ -1,6 +1,8 @@
 # FPGA 7-Segment Counter with Nios II Processor
 --- 
+
 https://github.com/user-attachments/assets/7a04b07b-4dd3-4a0b-983b-5d1f7763a604
+
 ---
 
 
