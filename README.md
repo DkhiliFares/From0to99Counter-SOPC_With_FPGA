@@ -59,16 +59,6 @@ entity TopLevel is
 end entity TopLevel;
 ```
 
-### Pin Assignments (DE10-Lite Example)
-
-| Signal    | FPGA Pin | Description           |
-|-----------|----------|-----------------------|
-| CLOCK_50  | PIN_P11  | 50MHz Clock           |
-| RESET_N   | PIN_A7   | Reset Button          |
-| HEX0[6:0] | PIN_A13-C13| 7-segment Display 0  |
-| HEX1[6:0] | PIN_D13-E13| 7-segment Display 1  |
-| HEX2[6:0] | PIN_F13-B16| 7-segment Display 2  |
-| HEX3[6:0] | PIN_A14-A16| 7-segment Display 3  |
 
 ## 💻 Software Implementation
 
@@ -234,7 +224,7 @@ This project demonstrates:
 
 ## 📝 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source.
 
 ## 🤝 Contributing
 
